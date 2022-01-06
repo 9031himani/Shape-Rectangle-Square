@@ -34,7 +34,7 @@ class Triangle:
         area = 0.5*self.base*self.height
         print(f"area of triangle = {area}")
 
-    def perimeter(self):
+    def perimeter(self): # Wrong, there is no concept of OOPS, if you are rewriting methods again and again.
         perimeter = 3*self.base
         print(f"perimeter of equilateral triangle is {perimeter}")
 
